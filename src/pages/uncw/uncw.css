@@ -15,7 +15,7 @@ section{
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 25vh 25vh 25vh 25vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 section .wave{
@@ -83,12 +83,12 @@ section .wave4{
 .logo{
     display: grid;
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 2;
 
 }
     
 .logo img{
-    width: 10vw;
+    width: 100%;
     height: auto;
     animation: example1 5s infinite;
     z-index: 800;
@@ -107,9 +107,10 @@ section .wave4{
    }
 
 .plane{
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 3/span 5;
-    animation: title 10s infinite;
+    animation: title 20s ease-in-out;
+    animation-fill-mode: forwards;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -136,6 +137,7 @@ section .wave4{
     vertical-align: center;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: floating 1s ease-in-out infinite;
 }
 
 @keyframes title{
@@ -143,51 +145,39 @@ section .wave4{
         opacity: 0.7;
         transform: translateX(100%); 	
     }
-    20%{
-        opacity: 0.5;
-        transform: translateX(50%); 
-    }
-    40%{
-        opacity: 0.7;
-        transform: translateX(25%); 
-    }
-    60%{
-        opacity: 0.5;
-        transform: translateX(0%); 
-    }
-    80%{
-        opacity: 0.7;
-        transform: translateX(-50%); 
-    }
+ 
     100%{
         opacity: 0.5;
         transform: translateX(-100%); 
     }
 }
 
-@keyframes plane{
-    0%{
-        opacity: 0.7;
-        transform: translateX(0%); 	
-    }
-    20%{
-        opacity: 0.5;
-        transform: translateX(-50%); 
-    }
-    40%{
-        opacity: 0.7;
-        transform: translateX(-100%); 
-    }
-    60%{
-        opacity: 0.5;
-        transform: translateX(-150%); 
-    }
-    80%{
-        opacity: 0.7;
-        transform: translateX(-200%); 
-    }
-    100%{
-        opacity: 0.5;
-        transform: translateX(-250%); 
-    }
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.info{
+    width: 80%;
+    height: 100%;
+    grid-row:2/4;
+    grid-column: 4/6;
+    background: lightseagreen;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(25px);
+font-size: 100%;
+color: white;
+text-align: center;
+margin-top: 1%;
+margin-bottom: 1%;
+align-self: center;
+display: flex;
+flex-direction: column;
+vertical-align: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
 }
