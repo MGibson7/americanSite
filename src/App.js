@@ -1,9 +1,9 @@
-import Uncw from "./pages/uncw/Uncw";
+import Experience2 from "./pages/experience2/Experience2";
 
 
 function App() {
   return (
-    <Uncw/>
+    <Experience2/>
   );
 }
 
