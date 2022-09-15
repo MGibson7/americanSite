@@ -1,9 +1,10 @@
-import Experience2 from "./pages/experience2/Experience2";
+import Home from "./pages/home/Home";
+
 
 
 function App() {
   return (
-    <Experience2/>
+    <Home/>
   );
 }
 
