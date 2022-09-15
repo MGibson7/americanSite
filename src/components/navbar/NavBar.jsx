@@ -2,7 +2,7 @@ import "./navbar.css"
 
 const NavBar = () => {
   return (
-    <div className='flex marginAuto latoFont bg-darkBlue spaceBtwn textcolor-White alignVertCent' style={{position: "sticky", top: "0", zIndex: "1000", opacity: "0.9"}}>
+    <div className='flex marginAuto latoFont bg-darkBlue spaceBtwn textcolor-White alignVertCent' style={{position: "sticky", top: "0", zIndex: "1000", opacity: "0.7"}}>
         <div className="logo flex alignVertCent w33" style={{marginLeft: '50px'}}>
             <img className='maxWidth' src="./logo.png" alt="" />
             <h1 className=" font50 bold">A<span className="textcolor-lightBlue">C</span>T</h1>
