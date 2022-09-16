@@ -14,7 +14,7 @@ const NavBar = () => {
             
         </div>
         <div className="flex w33" style={{justifyContent:'right'}}>
-        <button className="bg-lightBlue textcolor-White" style={{borderRadius: '50%', padding: '10px', textAlign: "right", marginRight: '50px'}}>
+        <button className="wiggle bg-lightBlue textcolor-White" style={{borderRadius: '50%', padding: '10px', textAlign: "right", marginRight: '50px'}}>
             ORDER NOW!
         </button>
 

@@ -6,9 +6,9 @@ const Home = () => {
     
 
     <>
-    <div className="textcolor-White" style={{position: "fixed", bottom: "0", right: "0"}}>
+    <div className="textcolor-White" style={{backgroundColor: "black", position: "fixed", bottom: "10px", right: "15px", opacity: "0.7", borderRadius: "20%"}}>
             <img src="./dtv.png" alt="" style={{maxWidth: "300px", margin: "0px"}} />
-            <h3 style={{margin: "0px", textAlign: "center"}}>AUTHORIZED RETAILER</h3>
+            <h3 style={{margin: "0px", textAlign: "center", fontSize: "15px"}}>AUTHORIZED RETAILER</h3>
         </div>
     <div className="container">
         
