@@ -8,9 +8,9 @@ const NavBar = () => {
             <h1 className=" font50 bold">A<span className="textcolor-lightBlue">C</span>T</h1>
         </div>
         <div className="flex spaceBtwn w33" style={{textAlign: "center"}}>
-            <a href="" className="textcolor-White">SERVICE</a>
-            <a href="" className="textcolor-White">PRODUCTS</a>
-            <a href="" className="textcolor-White">ABOUT US</a>
+            <p className="textcolor-White">SERVICE</p>
+            <p className="textcolor-White">PRODUCTS</p>
+            <p className="textcolor-White">ABOUT US</p>
             
         </div>
         <div className="flex w33" style={{justifyContent:'right'}}>
