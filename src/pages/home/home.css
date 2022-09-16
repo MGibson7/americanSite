@@ -23,12 +23,12 @@ img{
 }
 
 .circleObj{
-    animation: myOrbit 10s infinite;
+    animation: myOrbit 7s infinite;
    
 }
 
 @keyframes myOrbit {
-    from { transform: rotate(0deg) translateX(350px) rotate(0deg); }
-    to   { transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+    from { transform: rotate(0deg) translateX(400px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(400px) rotate(-360deg); }
 }
 
