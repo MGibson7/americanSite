@@ -6,8 +6,8 @@ const Home = () => {
     
 
     <>
-    <div className="textcolor-White" style={{position: "fixed", bottom: "0", left: "1050px"}}>
-            <img src="./dtv.png" alt="" style={{maxWidth: "500px", margin: "0px"}} />
+    <div className="textcolor-White" style={{position: "fixed", bottom: "0", right: "0"}}>
+            <img src="./dtv.png" alt="" style={{maxWidth: "300px", margin: "0px"}} />
             <h3 style={{margin: "0px", textAlign: "center"}}>AUTHORIZED RETAILER</h3>
         </div>
     <div className="container">
@@ -23,8 +23,8 @@ const Home = () => {
             ></video>
         </div>
 
-        <div className="flex textcolor-White" style={{position: "absolute", top: "300px", left: "25px", fontSize: "25px"}}>
-            <h1 style={{maxWidth: "700px"}}>Business Entertainment <span className="textcolor-lightBlue">That's Out of This World</span></h1>
+        <div className="flex textcolor-White" style={{position: "absolute", top: "200px", left: "25px", fontSize: "50px"}}>
+            <h1 style={{maxWidth: "600px", fontSize: "50px"}}>Business Entertainment <span className="textcolor-lightBlue">That's Out of This World</span></h1>
             
         
 
