@@ -25,19 +25,7 @@ const Home = () => {
 
         <div className="flex textcolor-White" style={{position: "absolute", top: "200px", left: "25px", fontSize: "50px"}}>
             <h1 style={{maxWidth: "600px", fontSize: "50px"}}>Business Entertainment <span className="textcolor-lightBlue">That's Out of This World</span></h1>
-            <div className="flex textcolor-white" style = {{position: "relative", top: "-10px", left: "20px", flexWrap: "wrap"}}>
-              <div className="channel">
-                <img style={{objectFit: "contain"}} src="./dtvsundayTick.jpg" alt="" />
-                
-              </div>
-              <div className="channel">
-                <img src="cnn.webp" alt="" />
-              </div>
-              <div className="channel">
-                <img src="billions.jpeg" alt="" />
-              </div>
-
-</div>
+            
             
         
 
