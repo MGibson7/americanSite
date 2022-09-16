@@ -24,7 +24,6 @@ img{
 
 .circleObj{
     animation: myOrbit 7s infinite;
-    animation-delay: 2s;
    
 }
 
