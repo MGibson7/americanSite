@@ -7,8 +7,8 @@ const Home = () => {
 
     <>
     <div className="textcolor-White" style={{backgroundColor: "black", position: "fixed", bottom: "10px", right: "15px", opacity: "0.7", borderRadius: "20%"}}>
-            <img src="./dtv.png" alt="" style={{maxWidth: "300px", margin: "0px"}} />
-            <h3 style={{margin: "0px", textAlign: "center", fontSize: "15px"}}>AUTHORIZED RETAILER</h3>
+            <img src="./dtv.png" alt="" style={{maxWidth: "200px", margin: "0px"}} />
+            <h3 style={{margin: "0px", textAlign: "center", fontSize: "10px"}}>AUTHORIZED RETAILER</h3>
         </div>
     <div className="container">
         
@@ -25,10 +25,25 @@ const Home = () => {
 
         <div className="flex textcolor-White" style={{position: "absolute", top: "200px", left: "25px", fontSize: "50px"}}>
             <h1 style={{maxWidth: "600px", fontSize: "50px"}}>Business Entertainment <span className="textcolor-lightBlue">That's Out of This World</span></h1>
+            <div className="flex textcolor-white" style = {{position: "relative", top: "-10px", left: "20px", flexWrap: "wrap"}}>
+              <div className="channel">
+                <img style={{objectFit: "contain"}} src="./dtvsundayTick.jpg" alt="" />
+                
+              </div>
+              <div className="channel">
+                <img src="cnn.webp" alt="" />
+              </div>
+              <div className="channel">
+                <img src="billions.jpeg" alt="" />
+              </div>
+
+</div>
             
         
 
         </div>
+
+       
         
         
         
