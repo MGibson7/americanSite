@@ -23,11 +23,12 @@ const Home = () => {
             ></video>
         </div>
 
-        <div className="flex textcolor-White" style={{position: "absolute", top: "200px", left: "25px", fontSize: "50px"}}>
+        <div className="flex textcolor-White" style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", fontSize: "50px"}}>
             <h1 style={{maxWidth: "600px", fontSize: "50px"}}>Business Entertainment <span className="textcolor-lightBlue">That's Out of This World</span></h1>
-            
-            
-        
+
+        </div>
+        <div className="circleObj" style={{position: "absolute", top: "40%", left: "40%"}}>
+          <img src="./sundaytick.webp" alt="" />
 
         </div>
 
